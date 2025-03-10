@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <div class="col-xxl-12">
+            <nav>
+                <ul id="sidemenu mt-3">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="images/close.png" class="close" onclick="closemenu()">
+                </ul>
+                <img src="images/hamburger-menu.png" class="close" onclick="openmenu()">
+            </nav>
+        </div>
+      
+        <div class="col-sm-12 col-md-12 col-lg-12  col-xl-6 col-xxl-6">
+            <div class="header-text">
+                <p class="dev">FRONT END DEVELOPER</p>
+                <h1>Hi, I'm <span>THINESH KUMAR</span> </h1>
+            </div>
+        </div>
+    </div>
+</div>  
+<!-- -----------------about------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="left-cont">
+                    <img src="images/user.jpg" class="user">
+                   
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p class="about mt-4">I’m an enthusiastic and motivated front-end developer, building a strong foundation in HTML, CSS, JavaScript, Bootstrap Framework, TypeScript and React I’m expanding my expertise into web development, focusing on creating responsive and user-centered websites. I’m excited to apply my skills in real-world settings, aiming to contribute meaningful solutions.</p>
+                <div class="tab-titles mt-4">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>FRONT END</span</li>
+                     <li>HTML</li>
+                     <li>CSS</li>
+                     <li>JAVASCRIPT</li>
+                     <li>BOOTSTRAP</li>
+                     <li>REACT</li>
+                     <li><span class="mt-3">PROGRAMMING</span</li>
+                     <li>PYTHON</li>
+
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                      <li><span>2024</span><br>3 months Internship as a Front End Developement</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                      <li><span>2024</span><br>BE from MKCE Karur</li>
+                  </ul>
+                </div>
+           </div> 
+            </div>
+            <div class="right-cont">          
+        
+        
+    </div>
+</div>
+<!-- -------services----------- -->
+<div id="projects">
+<div class="container">
+    <div class="row">
+        <h1 class="sub-title mt-5">PROJECTS</h1>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-6">
+          <div class="block m-3 p-3">
+     
+              <div class="block-body">
+                  <h2>ONLINE VOTING SYSTEM</h2>
+                  <p>It is a is a user-friendly platform designed to streamline the voting
+                    process in a digital format.</p>
+              </div>
+              <div class="block-footer">
+                  <a href="#">Learn More</a>
+              </div>
+          </div>
+      </div>
+  
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-6">
+          <div class="block m-3 p-3">
+              <div class="block-body">
+                  <h2 class="para">TO DO LIST</h2>
+                  <p class="sent">A to-do list app lets users add, edit, and delete tasks. Built with React, it uses state management for task updates and local storage for persistence, offering a simple, interactive user interface.</p>
+              </div>
+              <div class="block-footer">
+                  <a href="#">Learn More</a>
+              </div>
+          </div>
+      </div>
+  
+     
+  
+    </div>
+  </div>
+  </div>
+   
+  
+
+ 
+
+ 
+ <!-- ---------------portfolio------------------- -->
+
+
+ <!-- ------------contact---------------->
+<div id="contact"></div>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="contact-left">
+                <h1 class="sub-title mt-4">CONTACT ME</h1>
+                <p class="ms-2">thineshg12@gmail.com</p>
+                <p class="ms-2">9159368429</p>
+                <a href="images/instagram .png" class="social icons"></a>
+                <a href="images/instagram .png" class="social icons"></a>
+                <a href="images/Thinesh Kumar_G_ Resume.pdf" download class="btn btn-secondary">Download CV</a>
+                
+                
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-6 mt-4">
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn-primary">SUBMIT</button>
+                </form>
+                <span id="msg"></span>
+              </div>
+        </div>
+       
+    </div>
+
+  </div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwXNrj2sgJjcZPuoUm4CJMc6DvWaBjqGG1nHXs1rk5vsWHmPa6kKPV7FqiMTSvO0gzIRQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
